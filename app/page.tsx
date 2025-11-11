@@ -1,58 +1,73 @@
-const Page = () => {
+export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-50 text-gray-900">
-      {/* Header Section */}
-      <header className="text-center py-12 bg-indigo-600 text-white">
-        <h1 className="text-4xl font-bold">Hello, I'm Joseph Chin</h1>
-        <p className="text-xl mt-4">A passionate web developer & designer</p>
-      </header>
+    <main style={{
+      fontFamily: "sans-serif",
+      maxWidth: "700px",
+      margin: "0 auto",
+      padding: "2rem",
+      lineHeight: "1.6"
+    }}>
+      <h1 style={{ fontSize: "2.5rem", marginBottom: "1rem" }}>
+        Hi, I'm David Le 👋
+      </h1>
 
-      {/* Bio Section */}
-      <section className="px-4 py-16 text-center">
-        <h2 className="text-3xl font-semibold mb-6">About Me</h2>
-        <p className="text-lg max-w-3xl mx-auto">
-          I'm a front-end developer with a love for clean design and intuitive user experiences.
-          I have experience building websites using modern JavaScript frameworks like React, Next.js, and more.
-          When I'm not coding, you can find me exploring new tech trends or experimenting with creative projects.
-        </p>
-      </section>
+      <p style={{ fontSize: "1.2rem", marginBottom: "1.5rem" }}>
+        I'm a learner exploring web development and building cool things with Next.js.
+      </p>
 
-      {/* Skills Section */}
-      <section className="bg-gray-100 py-16">
-        <div className="text-center">
-          <h2 className="text-3xl font-semibold mb-6">Skills</h2>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 text-lg">
-            <li>JavaScript</li>
-            <li>TypeScript</li>
-            <li>React</li>
-            <li>Next.js</li>
-            <li>HTML & CSS</li>
-            <li>Node.js</li>
-            <li>Git & GitHub</li>
-            <li>UI/UX Design</li>
-          </ul>
-        </div>
-      </section>
+      <h2 style={{ fontSize: "1.5rem", marginTop: "2rem" }}>
+        About Me
+        Im david , majoring in cs at city in the spring . 
+      </h2>
+      <p>
+        I enjoy technology, creativity, and learning new skills.
+        This website is my space to share projects, interests, and journey as a developer.
+      </p>
 
-      {/* Contact Section */}
-      <section className="px-4 py-16 text-center">
-        <h2 className="text-3xl font-semibold mb-6">Get in Touch</h2>
-        <p className="text-lg mb-4">Feel free to reach out for collaborations, questions, or just to say hi!</p>
-        <a
-          href="mailto:johndoe@example.com"
-          className="text-xl text-indigo-600 hover:underline"
-        >
-          johndoe@example.com
-        </a>
-      </section>
+      <h2 style={{ fontSize: "1.5rem", marginTop: "2rem" }}>
+        Connect With Me
+      </h2>
+      <ul>
+        <li>📧 Email: export default function Home() {
+  return (
+    <main style={{
+      fontFamily: "sans-serif",
+      maxWidth: "700px",
+      margin: "0 auto",
+      padding: "2rem",
+      lineHeight: "1.6"
+    }}>
+      <h1 style={{ fontSize: "2.5rem", marginBottom: "1rem" }}>
+        Hi, I'm [Your Name] 👋
+      </h1>
 
-      {/* Footer Section */}
-      <footer className="py-4 bg-gray-800 text-white text-center">
-        <p>Built with love using Next.js & Tailwind CSS</p>
-        <p>&copy; 2025 John Doe</p>
-      </footer>
-    </div>
+      <p style={{ fontSize: "1.2rem", marginBottom: "1.5rem" }}>
+        I'm a learner exploring web development and building cool things with Next.js.
+      </p>
+
+      <h2 style={{ fontSize: "1.5rem", marginTop: "2rem" }}>
+        About Me
+      </h2>
+      <p>
+        I enjoy technology, creativity, and learning new skills.
+        This website is my space to share projects, interests, and journey as a developer.
+      </p>
+
+      <h2 style={{ fontSize: "1.5rem", marginTop: "2rem" }}>
+        Connect With Me
+      </h2>
+      <ul>
+        <li>📧 Email: davidlasman24@gmail.com
+        <li>💼 LinkedIn: https://www.linkedin.com/feed
+      </ul>
+    </main>
   );
-};
+}
 
-export default Page;
+        <li>💼 LinkedIn: https://linkedin.com/in/yourprofile</li>
+        <li>🐙 GitHub: https://github.com/yourusername</li>
+      </ul>
+    </main>
+  );
+}
+
