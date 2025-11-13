@@ -3,17 +3,18 @@ const Page = () => {
     <div className="min-h-screen bg-gray-50 text-gray-900">
       {/* Header Section */}
       <header className="text-center py-12 bg-indigo-600 text-white">
-        <h1 className="text-4xl font-bold">Hello, I'm Joseph Chin</h1>
-        <p className="text-xl mt-4">A passionate web developer & designer</p>
+        <h1 className="text-4xl font-bold">Hello, I'm David Le</h1>
+        <p className="text-xl mt-4">A passionate web developer & designer from San Francisco</p>
       </header>
 
       {/* Bio Section */}
       <section className="px-4 py-16 text-center">
         <h2 className="text-3xl font-semibold mb-6">About Me</h2>
         <p className="text-lg max-w-3xl mx-auto">
-          I'm a front-end developer with a love for clean design and intuitive user experiences.
-          I have experience building websites using modern JavaScript frameworks like React, Next.js, and more.
-          When I'm not coding, you can find me exploring new tech trends or experimenting with creative projects.
+          I'm David Le, a 28-year-old native of San Francisco. I’ve lived in this amazing city my whole life,
+          surrounded by creativity, culture, and technology. I’m passionate about front-end development and love
+          creating clean, user-friendly designs that bring ideas to life. When I’m not coding, I enjoy exploring
+          new restaurants, hanging out with friends, and soaking up everything San Francisco has to offer.
         </p>
       </section>
 
@@ -37,19 +38,21 @@ const Page = () => {
       {/* Contact Section */}
       <section className="px-4 py-16 text-center">
         <h2 className="text-3xl font-semibold mb-6">Get in Touch</h2>
-        <p className="text-lg mb-4">Feel free to reach out for collaborations, questions, or just to say hi!</p>
+        <p className="text-lg mb-4">
+          Feel free to reach out for collaborations, questions, or just to say hi!
+        </p>
         <a
-          href="mailto:johndoe@example.com"
+          href="mailto:davidle@example.com"
           className="text-xl text-indigo-600 hover:underline"
         >
-          johndoe@example.com
+          davidle@example.com
         </a>
       </section>
 
       {/* Footer Section */}
       <footer className="py-4 bg-gray-800 text-white text-center">
-        <p>Built with love using Next.js & Tailwind CSS</p>
-        <p>&copy; 2025 John Doe</p>
+        <p>Built with love by David Le using Next.js & Tailwind CSS</p>
+        <p>&copy; 2025 David Le</p>
       </footer>
     </div>
   );
