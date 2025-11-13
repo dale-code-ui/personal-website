@@ -3,7 +3,7 @@ const Page = () => {
     <div className="min-h-screen bg-gray-50 text-gray-900">
       {/* Header Section */}
       <header className="text-center py-12 bg-indigo-600 text-white">
-        <h1 className="text-4xl font-bold">Hello, I'm Joseph Chin</h1>
+        <h1 className="text-4xl font-bold">Hello, I'm David Le</h1>
         <p className="text-xl mt-4">A passionate web developer & designer</p>
       </header>
 
@@ -37,7 +37,9 @@ const Page = () => {
       {/* Contact Section */}
       <section className="px-4 py-16 text-center">
         <h2 className="text-3xl font-semibold mb-6">Get in Touch</h2>
-        <p className="text-lg mb-4">Feel free to reach out for collaborations, questions, or just to say hi!</p>
+        <p className="text-lg mb-4">
+          Feel free to reach out for collaborations, questions, or just to say hi!
+        </p>
         <a
           href="mailto:johndoe@example.com"
           className="text-xl text-indigo-600 hover:underline"
